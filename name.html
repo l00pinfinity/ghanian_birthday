@@ -30,10 +30,10 @@
       </div>
     </header>
   </head>
-  <body class="text-center">
+  <body>
     <div class="form">
       <div class="row">
-        <div class="col-md-5 offset-md-4">
+        <div class="col-sm-4"></div>
           <h2>Complete the form</h2>
           <form name="myForm" class="form" onsubmit="validate();">
             <div class="form">
@@ -41,14 +41,30 @@
                 <label for="number">Year</label>
                 <input type="number" class="form-control" id="year" name="year" placeholder="Year of birth" required>
               </div>
-
+              <div class="form-group">
+                <label for="month">Month:</label>
+                <input type="number" class="form-control" id="month" placeholder="Month of birth" name="month" required>
               </div>
-
+              <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="number" class="form-control" id="day" placeholder="Date of birth" name="day" required>
               </div>
-
-            </div>
-
-          </form>
+              <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                  </label>
+                </div>
+              </div>
+                <button type="submit" class="btn btn-primary" onclick="finName();">Submit</button><br>
+              </div>
+            </form>
 
         </div>
 
