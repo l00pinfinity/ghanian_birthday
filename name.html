@@ -22,15 +22,8 @@
       }
     </style>
     <link rel="stylesheet" href="css/master.css">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="index.html">Home</a>
-        </nav>
-      </div>
-    </header>
   </head>
-  <body>
+  <body class="container">
     <div class="form">
       <div class="row">
         <div class="col-sm-4"></div>
@@ -38,7 +31,7 @@
           <form name="myForm" class="form" onsubmit="validate();">
             <div class="form">
               <div class="form-group">
-                <label for="number">Year</label>
+                <label for="number">Year:</label>
                 <input type="number" class="form-control" id="year" name="year" placeholder="Year of birth" required>
               </div>
               <div class="form-group">
@@ -50,7 +43,7 @@
                 <input type="number" class="form-control" id="day" placeholder="Date of birth" name="day" required>
               </div>
               <div class="form-group">
-                <label for="month">Gender</label><br>
+                <label for="month">Gender:</label><br>
                 <div class="form-check-inline">
                   <label class="form-check-label">
                     <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
@@ -60,18 +53,17 @@
                   <label class="form-check-label">
                     <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
                   </label>
-                </div>
+                </div><hr>
               </div>
                 <button type="submit" class="btn btn-primary" onclick="finName();">Submit</button><br>
               </div>
             </form>
         </div>
+        <br>
+        <p class="lead">
+          <a href="index.html" class="btn btn-lg btn-secondary">Home</a>
+        </p>
       </div>
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Done by B0!T 2020</p>
-        </div>
-      </footer>
 
     <script type="js/script.js">
 
