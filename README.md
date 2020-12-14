@@ -8,7 +8,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## Setting Up
 
-###Demo
+### Demo
 
 https://l00pinfinity.github.io/ghanian_birthday/
 
