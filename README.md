@@ -8,10 +8,14 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## Setting Up
 
+###Demo
+
+https://l00pinfinity.github.io/ghanian_birthday/
+
 #### Clone the Repo
 
 https://github.com/l00pinfinity/ghanian_birthday.git
-
+i
 cd REPO_NAME
 
 ## BDD
