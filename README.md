@@ -15,7 +15,7 @@ https://l00pinfinity.github.io/ghanian_birthday/
 #### Clone the Repo
 
 https://github.com/l00pinfinity/ghanian_birthday.git
-i
+
 cd REPO_NAME
 
 ## BDD
